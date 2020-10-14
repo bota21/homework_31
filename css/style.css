@@ -96,6 +96,7 @@ body {
   width: 32px;
   height: 32px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 
 .wrapper_items_parse_link {
