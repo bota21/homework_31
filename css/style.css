@@ -1,10 +1,18 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: Arial-MT;
   src: url(../fonts/ARIALMTLIGHT.TTF);
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a:focus {
@@ -32,7 +40,9 @@ body {
 
 .triangle {
   position: absolute;
-  transform: translate(-938%);
+  -webkit-transform: translate(-938%);
+      -ms-transform: translate(-938%);
+          transform: translate(-938%);
 }
 
 .sale {
@@ -43,11 +53,19 @@ body {
   font-weight: 700;
   border-radius: 50%;
   background: #ff638f;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
-  transform: translate(802%, -127%);
+  -webkit-transform: translate(802%, -127%);
+      -ms-transform: translate(802%, -127%);
+          transform: translate(802%, -127%);
 }
 
 .wrapper {
@@ -57,8 +75,12 @@ body {
 }
 
 .wrapper_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 27px;
 }
 
@@ -80,16 +102,26 @@ body {
 }
 
 .wrapper_items_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 37px;
 }
 
 .wrapper_items_avatar_links {
   width: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .avatar {
@@ -105,9 +137,15 @@ body {
   border-radius: 30px;
   border: 1px solid #bcc4ce;
   color: #868d9b;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 10px;
 }
 
@@ -122,8 +160,14 @@ body {
   background: #ff638f;
   color: #ffffff;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 3px;
 }
